@@ -158,7 +158,7 @@ const animationTimeline = () => {
       ".idea-5 .smiley",
       0.7,
       {
-        rotation: 90,
+        rotation: 0,
         x: 8
       },
       "+=0.4"
@@ -212,7 +212,7 @@ const animationTimeline = () => {
       ".lydia-dp",
       0.5,
       {
-        scale: 3.5,
+        scale: 2.5,
         opacity: 0,
         x: 25,
         y: -25,
@@ -220,12 +220,6 @@ const animationTimeline = () => {
       },
       "-=2"
     )
-    .from(".hat", 0.5, {
-      x: -100,
-      y: 350,
-      rotation: -180,
-      opacity: 0
-    })
     .staggerFrom(
       ".wish-hbd span",
       0.7,
